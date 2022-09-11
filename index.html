@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Counter App</title>
+</head>
+<body>
+
+    <div class="container">
+    <h1>Number of Vehicles: &nbsp;</h1>
+
+    <h2 id="count-el"> 0 </h2>
+    </div>
+
+    <div class="btns">
+    <!-- call increment function & button-->
+    <button id="add-btn" onclick="increment()"> ADD </button>
+
+    <button id="deduct-btn" onclick="decrement()">DEDUCT</button>
+
+    <!-- call save function & button-->
+    <button id="save-btn" onclick="save()"> SAVE </button>
+    </div>
+
+    <div class="history">
+
+    <p id="save-el">Previous entries: </p>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
