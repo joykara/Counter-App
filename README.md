@@ -1,2 +1,3 @@
 # Counter-App
-JavaScript counter app
+## JavaScript counter app
+- A basic Counter Application built with JavaScript, HTML and CSS. 
